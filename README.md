@@ -1,2 +1,53 @@
 # kutuphane-otomat-sistemi
 Python (Tkinter) ve MySQL tabanlı, gelişmiş dinamik sorgulama ve raporlama özelliklerine sahip Kütüphane Otomasyon Sistemi
+0. main.py 	: Projenin derlenmiş, çalıştırılabilir hali.
+
+1. arayuz klasörü       : Projenin Python ile yazılmış kaynak kodudur (Backend).
+
+2. db-kodlar.sql   : Veritabanını, tabloları, verileri ve prosedürleri oluşturan SQL dosyasıdır.
+
+3. vtys_proje_slayt.pptx : Proje sunum dosyası.
+
+---
+
+1. Bilgisayarınıza MySQL Server ve MySQL Workbench kurun
+
+2. MySQL Workbench'i açın ve yerel sunucunuza bağlanın.
+
+3. "db-kodlar.sql" dosyasını Workbench içinde açın. kullanıcı adı "root" ve şifre "admin"
+
+4. Tüm kodları seçerek çalıştırın
+
+Bu işlem "kutuphane-otomat" veritabanını oluşturacak, tabloları kuracak ve içine 30 adet örnek kitap ile test kullanıcılarını yükleyecektir.
+
+5. Projenin çalışması için mysql_connector ve python pandas kurmanız gerek.
+
+Sistemi test etmek için aşağıdaki hazır kullanıcıları kullanabilirsiniz:
+------------------------------------------------------------------------------
+YÖNETİCİ GİRİŞİ (Tam Yetki):
+
+Kullanıcı Adı : admin
+
+Şifre         : 1234
+
+(Bu hesap ile SQL terminaline erişebilir, üye/kitap silebilirsiniz.)
+
+-----------------------------------------------------------------------------
+
+PERSONEL GİRİŞİ (Kısıtlı Yetki):
+
+---
+
+Kullanıcı Adı : gorevli1
+
+Şifre         : 1234
+
+
+
+Kullanıcı Adı : gorevli2
+
+Şifre         : 1234
+
+
+
+(Bu hesaplar ile sadece ödünç verme/alma işlemi yapabilir ve raporları görebilirsiniz.)
